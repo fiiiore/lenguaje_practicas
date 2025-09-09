@@ -7,8 +7,8 @@ opciones = ["piedra", "papel", "tijera"]
 print("¡Bienvenido! Vamos a jugar a Piedra, Papel o Tijera.") 
 print("Escribí tu jugada (piedra/papel/tijera).")  
 
-cant_rondas = 5  # mejor de 5
-puntos_necesarios = (cant_rondas // 2) + 1  # ej: 3 en mejor de 5
+cant_rondas = 5  
+puntos_necesarios = (cant_rondas // 2) + 1  
 puntos_usuario = 0 
 puntos_pc = 0 
 ronda = 1 
